@@ -3,13 +3,13 @@ calculate students grade and performance
 
 Student Score AI Microservice
 
-## 🌐 Public URL
+Public URL
 
 **Endpoint:** `https://ai-microservice-kn4j.onrender.com`
 
 ---
 
-## 📝 Project Overview
+Project Overview
 
 This is a **stateless AI microservice** built with **Node.js** and **Express**. It is designed to be part of a distributed system, receiving student score data and returning an automated performance analysis.
 
@@ -21,7 +21,7 @@ This is a **stateless AI microservice** built with **Node.js** and **Express**. 
 
 ---
 
-## ⚙️ Logic Rules
+Logic Rules
 
 The service categorizes performance based on the following average thresholds:
 
@@ -33,7 +33,7 @@ The service categorizes performance based on the following average thresholds:
 
 ---
 
-## 🚀 API Specification
+API Specification
 
 ### Endpoint: `POST /analyze`
 
@@ -65,7 +65,7 @@ The service categorizes performance based on the following average thresholds:
 
 ---
 
-## 🛠️ Tech Stack
+Tech Stack
 
 * **Backend:** Node.js & Express
 * **Deployment:** Render / Railway
