@@ -2,6 +2,11 @@ const express = require('express');
 const app = express();
 app.use(express.json()); // Allows the app to read JSON input
 
+
+// This handles the "Home Page" of your URL
+app.get('/', (req, res) => {
+  res.send('AI Microservice is running! Please use POST /analyze to get results.');
+});
 app.post('/analyze', (req, res) => {
     const { scores, maxScore } = req.body;
 
